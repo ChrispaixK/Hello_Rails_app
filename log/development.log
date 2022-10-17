@@ -1,0 +1,186 @@
+Started GET "/" for ::1 at 2022-10-17 16:00:51 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ck/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ck/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 17.9ms | Allocations: 637)
+Completed 200 OK in 37ms (Views: 23.0ms | ActiveRecord: 0.0ms | Allocations: 5097)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:01:05 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ck/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ck/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.3ms | Allocations: 297)
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1018)
+
+
+Started GET "/hello" for ::1 at 2022-10-17 16:06:57 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/hello"):
+  
+Started GET "/pages/hello" for ::1 at 2022-10-17 16:07:30 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/" for ::1 at 2022-10-17 16:09:27 +0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ck/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ck/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 36.6ms | Allocations: 19)
+Completed 200 OK in 47ms (Views: 44.4ms | Allocations: 267)
+
+
+Started GET "/pages/hello" for ::1 at 2022-10-17 16:09:58 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/pages/hello"):
+  
+Started GET "/pages/hello" for ::1 at 2022-10-17 16:11:47 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.7ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 838.1ms | Allocations: 89831)
+Completed 200 OK in 844ms (Views: 842.2ms | Allocations: 90854)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:13:59 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 41.2ms | Allocations: 15371)
+Completed 200 OK in 43ms (Views: 42.6ms | Allocations: 16001)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:14:40 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 2.7ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3085)
+Completed 200 OK in 24ms (Views: 21.9ms | Allocations: 3937)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:15:59 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.8ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 4533)
+Completed 200 OK in 20ms (Views: 18.4ms | Allocations: 5364)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:17:14 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 2544)
+Completed 200 OK in 20ms (Views: 19.5ms | Allocations: 2838)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:42:04 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 22.0ms | Allocations: 333)
+  Rendered layout layouts/application.html.erb (Duration: 2225.2ms | Allocations: 37731)
+Completed 200 OK in 2524ms (Views: 2306.0ms | ActiveRecord: 0.0ms | Allocations: 41124)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:44:14 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 5229)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms | Allocations: 5552)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:44:27 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.3ms | Allocations: 3850)
+Completed 200 OK in 19ms (Views: 18.5ms | ActiveRecord: 0.0ms | Allocations: 4106)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:44:42 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 1.9ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3078)
+Completed 200 OK in 24ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 3935)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:45:15 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 3960)
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.0ms | Allocations: 4235)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:45:27 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 1.4ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3083)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 3905)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:45:38 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 3965)
+Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 4240)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:45:54 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3850)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 4112)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:46:10 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3865)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 4122)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:46:36 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 3869)
+Completed 200 OK in 21ms (Views: 20.2ms | ActiveRecord: 0.0ms | Allocations: 4129)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:47:04 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 0.4ms | Allocations: 7)
+  Rendered layout layouts/application.html.erb (Duration: 30.9ms | Allocations: 3855)
+Completed 200 OK in 35ms (Views: 33.3ms | ActiveRecord: 0.0ms | Allocations: 4111)
+
+
+Started GET "/" for ::1 at 2022-10-17 16:48:43 +0200
+Processing by PagesController#hello as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/hello.html.erb within layouts/application
+  Rendered pages/hello.html.erb within layouts/application (Duration: 3.4ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 150.4ms | Allocations: 47164)
+Completed 200 OK in 163ms (Views: 155.6ms | ActiveRecord: 0.0ms | Allocations: 50556)
+
+
